@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="pwd" value="password"/>
+  <parameter name="user" value="sathya"/>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="pwd" value="password"/>
+    <parameter name="user" value="sathya"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.GroupTags">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- TestNG.GroupTags -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

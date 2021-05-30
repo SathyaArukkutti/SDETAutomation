@@ -1,0 +1,36 @@
+{
+	"users":[
+	{
+	"Name" : "User1",
+	"Age" :"21",
+	"id":11
+	},
+
+	{
+	"Name" :"User2",
+	"Age" : "27",
+	"id":12
+	},
+
+	{
+	"Name" : "User3",
+	"Age" : "30",
+	"id":13
+	}
+
+	],
+
+	"sports":[
+	{
+	"sportname" : "Cricket",
+	"sid":18
+	},
+
+	{
+	"sportname" : "football",
+	"sid":19
+	}
+	]
+		
+
+}
